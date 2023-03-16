@@ -1,0 +1,22 @@
+nav{
+    position: relative;
+    padding: 30px;
+    background: transparent;
+    float: left;
+    max-height: 50px;
+    -webkit-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,.0.6);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.205);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
